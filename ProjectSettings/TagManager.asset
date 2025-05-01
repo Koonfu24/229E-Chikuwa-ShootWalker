@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Bullet
+  - AttackingTeam
+  - Feet
+  - Enemy
+  - Zombie
   layers:
   - Default
   - TransparentFX
