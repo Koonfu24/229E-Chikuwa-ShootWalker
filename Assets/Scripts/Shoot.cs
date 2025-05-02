@@ -8,7 +8,8 @@ public class Shoot : MonoBehaviour
     [SerializeField] float bulletforce;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        
+        if (Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Debug.DrawRay(ray.origin, ray.direction * 5f, Color.red, 5f);
