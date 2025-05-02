@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1576103877544798263}
   - component: {fileID: -712029608307159849}
   - component: {fileID: -178370911017293926}
-  - component: {fileID: -3687842816258256476}
+  - component: {fileID: 223712664923151669}
   m_Layer: 0
   m_Name: CannonFondler_Bullet
   m_TagString: Untagged
@@ -153,7 +153,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3687842816258256476
+--- !u!114 &223712664923151669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,10 +162,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2359926226646210580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74937ae8459dda34db9ead040c85b1d3, type: 3}
+  m_Script: {fileID: 11500000, guid: c3e10d41afe6e364aacdeb764062323d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  shootPoint: {fileID: 0}
-  bulletSpeed: 10
-  shootInterbal: 3

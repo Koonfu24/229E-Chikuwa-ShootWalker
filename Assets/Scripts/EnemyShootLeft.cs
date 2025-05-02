@@ -10,8 +10,8 @@ public class EnemyShootLeft : MonoBehaviour
     [SerializeField] float shootInterbal = 3f;
     void Start()
     {
-        InvokeRepeating(nameof(ShootBullet),0f,shootInterbal);
-        
+        InvokeRepeating(nameof(ShootBullet), 0f, shootInterbal);
+
     }
     void ShootBullet()
     {

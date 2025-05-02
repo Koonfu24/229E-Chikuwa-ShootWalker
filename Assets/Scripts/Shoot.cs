@@ -14,6 +14,6 @@ public class Shoot : MonoBehaviour
             rb.velocity = Vector2.right * bulletSpeed;
             Destroy(bullet, 0.5f);
         }
-       
+      
     }
 }
