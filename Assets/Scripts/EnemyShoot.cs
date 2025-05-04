@@ -26,6 +26,7 @@ public class EnemyShoot : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(other.gameObject);
+            
         }
     }
 }

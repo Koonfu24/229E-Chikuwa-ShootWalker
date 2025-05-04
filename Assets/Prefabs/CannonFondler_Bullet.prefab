@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 223712664923151669}
   m_Layer: 0
   m_Name: CannonFondler_Bullet
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,3 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3e10d41afe6e364aacdeb764062323d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowCanvas: {fileID: 8500392885042055303, guid: b71eddfb6d4f361439ab92f8f3819714, type: 3}
