@@ -9,7 +9,7 @@ public class GetScore : MonoBehaviour
    public void AddScore()
    {
       score++;
-      scoreText.text = "Score " + score;
+      scoreText.text = "Score " + score*100;
    }
    
 }
