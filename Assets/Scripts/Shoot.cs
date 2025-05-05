@@ -2,7 +2,8 @@ using System;
 using UnityEngine;
 
 public class Shoot : MonoBehaviour
-{    [SerializeField] Transform ShootPoint;
+{   public AudioSource audio;
+    [SerializeField] Transform ShootPoint;
     [SerializeField] GameObject target;
     [SerializeField] Rigidbody2D bulletPrefab;
     [SerializeField] float bulletSpeed;
@@ -22,6 +23,7 @@ public class Shoot : MonoBehaviour
                 Vector2 projectileVelocity = CalculateProjectileVelocity(ShootPoint.position, hit.point, 1f);
                 Rigidbody2D shootBullet = Instantiate(bulletPrefab, ShootPoint.position, Quaternion.identity);
                 shootBullet.linearVelocity = projectileVelocity;
+                audio.Play();
             }
         }
     }

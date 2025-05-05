@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 public class NormalShoot : MonoBehaviour
-{
+{public AudioSource audio;
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] Transform shootPoint;
     [SerializeField] float bulletSpeed = 10f;
@@ -23,6 +23,7 @@ public class NormalShoot : MonoBehaviour
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.velocity = Vector2.right * bulletSpeed;
             Destroy(bullet, 0.5f);
+            audio.Play();
         } 
     }
     
